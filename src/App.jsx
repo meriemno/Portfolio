@@ -4,7 +4,6 @@ import About from './components/about/About';
 import Projects from './components/projet/Projet';
 import Contact from './components/form/Contact';
 import './index.css';
-import Skills from './components/skills/Skills';
 
 const App = () => {
     return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import profileImg from '../../assets/images/FrontEnd.webp';
-import linkedinIcon from '../../assets/logo/linkedin.png';
+import profileImg from '../../assets/images/profile.webp';
+import linkedinIcon from '../../assets/logo/linkedin.webp';
 import Skills from '../skills/Skills';
 
 const About = () => {

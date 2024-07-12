@@ -1,17 +1,17 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import project1Img from '../../assets/images/homyfood.jpg';
-import project2Img from '../../assets/images/Portfolio-photographe.jpg';
-import project3Img from '../../assets/images/KASA-logement.jpg';
-import project4Img from '../../assets/images/ninaCarducci.png';
-import project5Img from '../../assets/images/ArgentBank.png';
-import htmlLogo from '../../assets/logo/html5.png';
-import sassLogo from '../../assets/logo/sass.png';
-import cssLogo from '../../assets/logo/css.svg';
-import javascriptLogo from '../../assets/logo/javascript.jpg';
-import reactLogo from '../../assets/logo/React.png';
-import reduxLogo from '../../assets/logo/redux.svg';
-import lighthouseLogo from '../../assets/logo/lighthouse.png';
+import project1Img from '../../assets/images/homyfood.webp';
+import project2Img from '../../assets/images/Portfolio-photographe.webp';
+import project3Img from '../../assets/images/KASA-logement.webp';
+import project4Img from '../../assets/images/ninaCarducci.webp';
+import project5Img from '../../assets/images/ArgentBank.webp';
+import htmlLogo from '../../assets/logo/html5.webp';
+import sassLogo from '../../assets/logo/sass.webp';
+import cssLogo from '../../assets/logo/css.webp';
+import javascriptLogo from '../../assets/logo/javascript.webp';
+import reactLogo from '../../assets/logo/react.webp';
+import reduxLogo from '../../assets/logo/redux.webp';
+import lighthouseLogo from '../../assets/logo/lighthouse.webp';
 
 
 
