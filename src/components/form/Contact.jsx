@@ -9,7 +9,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_hznyafb', 'template_hznyafb', e.target, 'user_hznyafb')
+        emailjs.sendForm('service_2kidvzf', 'template_njfympy', e.target, 'EjIgDHNcEzSHh6blM')
             .then((result) => {
                 console.log(result.text);
                 setStatus('Message envoyé avec succès!');
