@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './layout/header/Header';
-import About from './components/about/About';
-import Projects from './components/projet/Projet';
-import Contact from './components/form/Contact';
-import './index.css';
+import Header from '../layout/header/Header';
+import About from '../components/about/About';
+import Projects from '../components/projet/Projet';
+import Contact from '../components/form/Contact';
+import '../index.css';
 
 const App = () => {
     return (

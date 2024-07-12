@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import profileImg from '../../assets/images/profile.webp';
-import linkedinIcon from '../../assets/logo/linkedin.webp';
+
 import Skills from '../skills/Skills';
 
 const About = () => {
@@ -24,12 +24,14 @@ const About = () => {
                         tendances technologiques.<br></br>
                         Que ce soit pour un projet personnel ou professionnel, je suis toujours prêt à donner le meilleur
                         de moi-même pour assurer le succès de chaque projet. N'hésitez pas à parcourir mon portfolio
-                        pour découvrir mes réalisations et à me contacter pour toute collaboration ou projet. </p>
-                        <div className="transform hover:scale-105 duration-300">
+                        pour découvrir mes réalisations et à me contacter pour toute collaboration ou projet.
+                        
+                    </p>
+                    <div className="transform hover:scale-105 duration-300 p-8 bg-gray-100 k rounded-lg">
                         <Skills />
-                        </div>
+                    </div>
                 </div>
-               
+
             </motion.div>
         </section>
     );
