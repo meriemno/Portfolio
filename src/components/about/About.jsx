@@ -18,14 +18,14 @@ const About = () => {
                     <img src={profileImg} alt="Profile" className="w-48 h-48 rounded-full mb-4 md:mb-0" />
                     <h2 className="text-2xl mb-4 p-4">À propos de moi</h2>
                     <p className="text-center  p-4">
-                        Je suis de <span className="font-semibold">developpeuse web</span> spécialisée en FrontEnd. Mon parcours m'a permis d'acquérir des compétences solides
-                        en <span className="font-semibold">JavaScript, React,</span> et diverses technologies front-end et back-end. J'adore relever des défis et
-                        apprendre de nouvelles choses chaque jour, ce qui me permet de rester à la pointe des dernières
-                        tendances technologiques.<br></br>
-                        Que ce soit pour un projet personnel ou professionnel, je suis toujours prêt à donner le meilleur
+                        Je suis <span className="font-semibold">developpeuse web</span> spécialisée en FrontEnd.<br>
+                        </br> Mon parcours m'a permis d'acquérir des compétences solides
+                        en <span className="font-semibold">JavaScript, React,</span> et diverses technologies front-end et back-end.
+                        <br></br>
+                        Que ce soit pour un projet personnel ou professionnel, je suis toujours prête à donner le meilleur
                         de moi-même pour assurer le succès de chaque projet. N'hésitez pas à parcourir mon portfolio
                         pour découvrir mes réalisations et à me contacter pour toute collaboration ou projet.
-                        
+
                     </p>
                     <div className="transform hover:scale-105 duration-300 p-8 bg-gray-100 k rounded-lg">
                         <Skills />
