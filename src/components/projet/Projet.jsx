@@ -41,7 +41,7 @@ const projects = [
     }
     ,
     {
-        title :"Nina Carducci",
+        title: "Nina Carducci",
         description: "Auditer et Optimisez le référencement d'un site de photographe Nina Carducci en ameliorant l'accessibilité,la performance et le réferrencement SEO.",
         image: project4Img,
         github: "https://github.com/meriemno/ninacarducci.github.io",
@@ -67,10 +67,10 @@ const Projects = () => {
                 transition={{ duration: 0.5 }}
             >
                 <h2 className="text-2xl mb-4 text-center">Mes Projets</h2>
-                
+
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     {projects.map((project, index) => (
-                    
+
                         <motion.div
                             key={project.title}
                             className="project p-4 bg-white shadow-md rounded-lg"
@@ -80,27 +80,29 @@ const Projects = () => {
                         >
                             <img src={project.image} alt={project.title} className="w-full h-48 object-cover rounded-t-lg" />
                             <div className="p-4">
-                            <div className="flex justify-between items-center mb-2">
-                                <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                                <a 
-                                    href={project.github} 
-                                    target="_blank" 
-                                    rel="noopener noreferrer" 
-                                    className="text-blue-500 hover:underline mb-2"
-                                >
-                                   <img src="https://img.icons8.com/ios-filled/50/000000/github.png" className='w-8 h-8 transaction hover:scale-110 duration-300 object-cover'/>
-                                </a>
-                            </div>
-                                
-                                <p>{project.description}</p><br></br>
-                                <div className="flex space-x-2 mt-2">
-                                    <h3>Compétences :</h3>
-                                    {project.technologies.map((tech, techIndex) => (
-                                        <img key={techIndex} src={tech} alt="Technology logo" className="w-8 h-8 rounded" />
-                                    ))}
-                                    
+                                <div className="flex justify-between items-center mb-2">
+                                    <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+                                    <a
+                                        href={project.github}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-blue-500 hover:underline mb-2"
+                                    >
+                                        <img src="https://img.icons8.com/ios-filled/50/000000/github.png" className='w-8 h-8 transaction hover:scale-110 duration-300 object-cover' />
+                                    </a>
                                 </div>
-                                
+
+                                <p>{project.description}</p><br></br>
+                                <div className="flex flex-col space-y-2 sm:flex-row sm:flex-wrap sm:items-center sm:space-y-0 sm:space-x-2 mt-2">
+                                    <h3>Compétences :</h3>
+                                    <div className="flex flex-wrap space-x-2">
+                                        {project.technologies.map((tech, techIndex) => (
+                                            <img key={techIndex} src={tech} alt="Technology logo" className="w-8 h-8 rounded" />
+                                        ))}
+                                    </div>
+                                </div>
+
+
                             </div>
                         </motion.div>
                     ))}

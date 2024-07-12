@@ -31,7 +31,7 @@ const Skills = () => {
                 className="text-center max-w-4xl"
             >
                 <h2 className="text-2xl mb-8">Compétences</h2>
-                <div className="grid grid-cols-4 md:grid-cols-7  center gap-8">
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-8">
                     {skills.map((skill) => (
                         <div key={skill.name} className="flex flex-col items-center ">
                             <img src={skill.logo} alt={skill.name} className="w-16 h-16 mb-2" />

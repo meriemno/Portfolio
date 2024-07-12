@@ -21,7 +21,7 @@ const Contact = () => {
         e.target.reset();
     };
     return (
-        <section id="contact" className="p-8 w-full flex justify-center items-center">
+        <section id="contact" className="p-8 w-full flex justify-center items-center" >
             <motion.div
                 className="w-full max-w-md"
                 initial={{ opacity: 0, y: 50 }}
