@@ -88,7 +88,7 @@ const Projects = () => {
                                         rel="noopener noreferrer"
                                         className="text-blue-500 hover:underline mb-2"
                                     >
-                                        <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt='github' className='w-8 h-8 transaction hover:scale-110 duration-300 object-cover' />
+                                        <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt='logo github' className='w-8 h-8 transaction hover:scale-110 duration-300 object-cover' />
                                     </a>
                                 </div>
 
@@ -97,7 +97,7 @@ const Projects = () => {
                                     <h3>Technologies :</h3>
                                     <div className="flex flex-wrap space-x-2">
                                         {project.technologies.map((tech, techIndex) => (
-                                            <img key={techIndex} src={tech} alt={tech} className="w-8 h-8 rounded" />
+                                            <img key={techIndex} src={tech} alt={" logo de " + tech} className="w-8 h-8 rounded" />
                                         ))}
                                     </div>
                                 </div>
