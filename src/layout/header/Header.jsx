@@ -4,9 +4,9 @@ import linkedinIcon from '../../assets/logo/linkedin.webp';
 
 const Header = () => {
     return (
-        <header className="bg-gray-800 text-white p-4 w-full sm:w-">
+        <header className="bg-gray-800 text-white p-8 w-full sm:w-">
             <motion.div
-                className="flex flex-col sm:flex-row  justify-between items-center max-w-6xl mx-auto"
+                className="flex flex-col sm:flex-row  justify-between items-center mx-auto"
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
