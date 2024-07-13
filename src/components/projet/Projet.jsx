@@ -66,9 +66,9 @@ const Projects = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5 }}
             >
-                <h2 className="text-2xl mb-4 text-center">Mes Projets</h2>
+                <h2 className="text-4xl mb-4 text-center text-xl font-semibold mb-2 text-gray-800">Mes Projets</h2>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {projects.map((project, index) => (
 
                         <motion.div

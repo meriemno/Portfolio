@@ -16,7 +16,7 @@ const About = () => {
                 <div className="flex flex-col items-center">
 
                     <img src={profileImg} alt="Profile" className="w-48 h-48 rounded-full mb-4 md:mb-0" />
-                    <h2 className="text-2xl mb-4 p-4">À propos de moi</h2>
+                    <h2 className="text-4xl mb-4 p-4 text-xl font-semibold mb-2 text-gray-800">À propos de moi</h2>
                     <p className="text-center  p-4">
                         Je suis <span className="font-semibold">developpeuse web</span> spécialisée en FrontEnd.<br>
                         </br> Mon parcours m'a permis d'acquérir des compétences solides

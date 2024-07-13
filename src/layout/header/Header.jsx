@@ -4,7 +4,7 @@ import linkedinIcon from '../../assets/logo/linkedin.webp';
 
 const Header = () => {
     return (
-        <header className="bg-gray-800 text-white p-8 w-full sm:w-">
+        <header className="bg-gray-800 text-white p-4 w-full sm:w-">
             <motion.div
                 className="flex flex-col sm:flex-row  justify-between items-center mx-auto"
                 initial={{ opacity: 0, y: -50 }}
@@ -12,8 +12,8 @@ const Header = () => {
                 transition={{ duration: 0.5 }}
             >
                 <h1 className="text-3xl font-bold mb-4 sm:mb-0">NORI Meriem</h1>
-                <nav className="mt-1 sm:mt-0">
-                    <ul className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                <nav className="mt-1 sm:mt-0 ">
+                    <ul className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4 ">
                         <li><a href="#about" className="hover:underline">À propos</a></li>
                         <li><a href="#projects" className="hover:underline">Projets</a></li>
                         <li><a href="#skills" className="hover:underline">Compétences</a></li>
