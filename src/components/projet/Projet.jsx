@@ -27,14 +27,14 @@ const projects = [
     },
     {
         title: "Portfolio-architecte-sophie-bluel",
-        description: "Développer et mettre en œuvre des fonctionnalités clés pour le site portfolion de la page de présentation des travaux et la conception de la page de connexion de l'administrateur et l'implémentation d'une modale pour l’ajout de nouveaux projets ",
+        description: "Développer et mettre en œuvre des fonctionnalités clés pour le site portfolio de la page de présentation des travaux et la conception de la page de connexion de l'administrateur et l'implémentation d'une modale pour l’ajout de nouveaux projets ",
         image: project2Img,
         github: "https://github.com/meriemno/Portfolio-architecte-sophie-bluel",
         technologies: [javascriptLogo],
     },
     {
         title: "Kasa",
-        description: "Moderniser l'Architecture Technique ,L'Implémentation du Nouveau Design et Développer des Composants Réutilisables et Modulaires.",
+        description: "Moderniser l'Architecture Technique ,l'Implémentation du Nouveau Design et Développer des Composants Réutilisables et Modulaires.",
         image: project3Img,
         github: "https://github.com/meriemno/Kasa",
         technologies: [sassLogo, htmlLogo, cssLogo, javascriptLogo, reactLogo],
@@ -42,7 +42,7 @@ const projects = [
     ,
     {
         title: "Nina Carducci",
-        description: "Auditer et Optimisez le référencement d'un site de photographe Nina Carducci en ameliorant l'accessibilité,la performance et le réferrencement SEO.",
+        description: "Auditer et Optimisez le référencement d'un site de photographe Nina Carducci en ameliorant l'accessibilité,la performance et le réferencement SEO.",
         image: project4Img,
         github: "https://github.com/meriemno/ninacarducci.github.io",
         technologies: [lighthouseLogo],
@@ -78,7 +78,7 @@ const Projects = () => {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5, delay: index * 0.2 }}
                         >
-                            <img src={project.image} alt={project.title} className="w-full h-48 object-cover rounded-t-lg" />
+                            <img src={project.image} alt={"projet" + project.title} className="w-full h-48 object-cover rounded-t-lg" />
                             <div className="p-4">
                                 <div className="flex justify-between items-center mb-2">
                                     <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
@@ -88,16 +88,16 @@ const Projects = () => {
                                         rel="noopener noreferrer"
                                         className="text-blue-500 hover:underline mb-2"
                                     >
-                                        <img src="https://img.icons8.com/ios-filled/50/000000/github.png" className='w-8 h-8 transaction hover:scale-110 duration-300 object-cover' />
+                                        <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt='github' className='w-8 h-8 transaction hover:scale-110 duration-300 object-cover' />
                                     </a>
                                 </div>
 
                                 <p>{project.description}</p><br></br>
                                 <div className="flex flex-col space-y-2 sm:flex-row sm:flex-wrap sm:items-center sm:space-y-0 sm:space-x-2 mt-2">
-                                    <h3>Compétences :</h3>
+                                    <h3>Technologies :</h3>
                                     <div className="flex flex-wrap space-x-2">
                                         {project.technologies.map((tech, techIndex) => (
-                                            <img key={techIndex} src={tech} alt="Technology logo" className="w-8 h-8 rounded" />
+                                            <img key={techIndex} src={tech} alt={tech} className="w-8 h-8 rounded" />
                                         ))}
                                     </div>
                                 </div>

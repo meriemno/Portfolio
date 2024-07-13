@@ -34,7 +34,7 @@ const Skills = () => {
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-8">
                     {skills.map((skill) => (
                         <div key={skill.name} className="flex flex-col items-center ">
-                            <img src={skill.logo} alt={skill.name} className="w-16 h-16 mb-2" />
+                            <img src={skill.logo} alt={" logo de " + skill.name} className="w-16 h-16 mb-2 w-20 h-20" />
                             <span>{skill.name}</span>
                         </div>
                     ))}

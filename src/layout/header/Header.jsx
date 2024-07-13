@@ -20,7 +20,7 @@ const Header = () => {
                         <li><a href="#contact" className="hover:underline">Contact</a></li>
                         <li>
                             <a href="https://www.linkedin.com/in/meriem-jebbour-5609007a/" className="flex items-center space-x-2 hover:underline">
-                                <img src={linkedinIcon} alt="LinkedIn" className="w-6 h-6 rounded-full bg-white" />
+                                <img src={linkedinIcon} alt="LinkedIn Meriem" className="w-6 h-6 rounded-full bg-white" />
                                 <span>Mon profil LinkedIn</span>
                             </a>
                         </li>
