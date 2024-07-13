@@ -3,8 +3,10 @@ import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
 
+
 const Contact = () => {
     const [status, setStatus] = useState('');
+   
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -32,15 +34,22 @@ const Contact = () => {
                 <form className="space-y-4" onSubmit={sendEmail}>
                     <label className="block">
                         Nom:
-                        <input type="text" name="name" className="w-full p-2 border border-gray-300 rounded mt-1" />
+                        <input
+                            type="text"
+                            name="name"
+                            className="w-full p-2 border border-gray-300 rounded mt-1" required />
                     </label>
                     <label className="block">
                         Email:
-                        <input type="email" name="email" className="w-full p-2 border border-gray-300 rounded mt-1" />
+                        <input type="email"
+                            name="email"
+                            className="w-full p-2 border border-gray-300 rounded mt-1" required />
                     </label>
                     <label className="block">
                         Message:
-                        <textarea name="message" className="w-full p-2 border border-gray-300 rounded mt-1"></textarea>
+                        <textarea
+                            name="message"
+                            className="w-full p-2 border border-gray-300 rounded mt-1" required></textarea>
                     </label>
                     <button type="submit" className="px-4 py-2 bg-gray-800 text-white rounded">Envoyer</button>
                 </form>
