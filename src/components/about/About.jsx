@@ -27,7 +27,7 @@ const About = () => {
                         pour découvrir mes réalisations et à me contacter pour toute collaboration ou projet.
 
                     </p>
-                    <div className="">
+                    <div className=" mb-10  ">
                         <Skills />
                     </div>
                 </div>
