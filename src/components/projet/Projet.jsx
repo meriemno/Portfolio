@@ -66,7 +66,7 @@ const Projects = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5 }}
             >
-                <h2 className="text-4xl mb-4 text-center text-xl font-semibold mb-2 text-gray-800">Mes Projets</h2>
+                <h2 className="text-4xl mb-4 p-4 text-center font-semibold mb-2 text-gray-800">Mes Projets</h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {projects.map((project, index) => (
@@ -88,7 +88,9 @@ const Projects = () => {
                                         rel="noopener noreferrer"
                                         className="text-blue-500 hover:underline mb-2"
                                     >
-                                        <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt='logo github' className='w-8 h-8 transaction hover:scale-110 duration-300 object-cover' />
+                                        <img src="https://img.icons8.com/ios-filled/50/000000/github.png" 
+                                        alt='logo github' 
+                                        className='w-8 h-8 transaction hover:scale-110 duration-300 ' />
                                     </a>
                                 </div>
 

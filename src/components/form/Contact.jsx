@@ -30,7 +30,7 @@ const Contact = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
             >
-                <h2 className="text-4xl mb-4 text-center text-xl font-semibold mb-2 text-gray-800">Contactez-moi</h2>
+                <h2 className="text-4xl mb-4 text-center font-semibold mb-2 text-gray-800">Contactez-moi</h2>
                 <form className="space-y-4" onSubmit={sendEmail}>
                     <label className="block">
                         Nom:

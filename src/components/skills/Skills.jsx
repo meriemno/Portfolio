@@ -23,14 +23,14 @@ const skills = [
 
 const Skills = () => {
     return (
-        <section id="skills" className="p-8 flex flex-col items-center">
+        <section id="skills" className="p-2  flex flex-col items-center">
             <motion.div
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
                 className="text-center max-w-4xl"
             >
-                <h2 className="text-4xl mb-8 text-xl font-semibold mb-2 text-gray-800">Compétences</h2>
+                <h2 className="text-4xl mb-8 p-8  font-semibold text-gray-800">Compétences</h2>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-8">
                     {skills.map((skill) => (
                         <div key={skill.name} className="flex flex-col items-center ">

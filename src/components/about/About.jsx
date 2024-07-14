@@ -16,8 +16,8 @@ const About = () => {
                 <div className="flex flex-col items-center">
 
                     <img src={profileImg} alt="Profile" className="w-48 h-48 rounded-full mb-4 md:mb-0" />
-                    <h2 className="text-4xl mb-4 p-4 text-xl font-semibold mb-2 text-gray-800">À propos de moi</h2>
-                    <p className="text-center  p-4">
+                    <h2 className="text-4xl mb-4 p-4 font-semibold mb-2 text-gray-800">À propos de moi</h2>
+                    <p className="text-center font-poppins p-4 mb-8">
                         Je suis <span className="font-semibold">developpeuse web</span> spécialisée en FrontEnd.<br>
                         </br> Mon parcours m'a permis d'acquérir des compétences solides
                         en <span className="font-semibold">JavaScript, React,</span> et diverses technologies front-end et back-end.
@@ -27,7 +27,7 @@ const About = () => {
                         pour découvrir mes réalisations et à me contacter pour toute collaboration ou projet.
 
                     </p>
-                    <div className="transform hover:scale-105 duration-300 p-8 bg-gray-100 k rounded-lg">
+                    <div className="transform hover:scale-105 duration-300 p-2 bg-gray-100 rounded-lg">
                         <Skills />
                     </div>
                 </div>
