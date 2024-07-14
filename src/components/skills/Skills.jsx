@@ -23,7 +23,7 @@ const skills = [
 
 const Skills = () => {
     return (
-        <section id="skills" className="p-2  flex flex-col items-center">
+        <section id="skills" className=" flex flex-col items-center">
             <motion.div
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
