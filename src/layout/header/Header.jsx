@@ -15,8 +15,8 @@ const Header = () => {
                 <nav className="mt-1 sm:mt-0 ">
                     <ul className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4 ">
                         <li><a href="#about" className="hover:underline">À propos</a></li>
-                        <li><a href="#projects" className="hover:underline">Projets</a></li>
                         <li><a href="#skills" className="hover:underline">Compétences</a></li>
+                        <li><a href="#projects" className="hover:underline">Projets</a></li>                        
                         <li><a href="#contact" className="hover:underline">Contact</a></li>
                         <li>
                             <a href="https://www.linkedin.com/in/meriem-jebbour-5609007a/" className="flex items-center space-x-2 hover:underline">
